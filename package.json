@@ -1,0 +1,19 @@
+{
+  "name": "preentrega3-escobarguillermo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilleDevs/PreEntrega2-EscobarGuillermo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilleDevs/PreEntrega2-EscobarGuillermo/issues"
+  },
+  "homepage": "https://github.com/GuilleDevs/PreEntrega2-EscobarGuillermo#readme"
+}
