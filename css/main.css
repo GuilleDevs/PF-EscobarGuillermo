@@ -207,13 +207,6 @@
     padding-left: 50px;
     padding: 50px;
 }
-.section__article--parrafo {
-    width: 100%;
-    padding: 70px 30px 30px 30px;
-    font-size: 1.3rem;
-    text-align: center;
-    
-}
 .section__article-fondo--conteiner-fondo {
     background-image: url(../images/fondo-frutas.avif);
     height: 600px;
@@ -249,6 +242,12 @@
 .section__article--img-cocinas {
     width: 600px;
     padding: 50px;
+}
+.section__article--parrafo {
+    width: 100%;
+    padding: 70px 30px 30px 30px;
+    font-size: 1.3rem;
+    text-align: center; 
 }
 .section__article--conteiner-parr-reserv {
     display: flex;
@@ -597,5 +596,243 @@
         width: 230px;
         height: 180px;
     }
-    
+}
+
+/*----------- Página menú version tablet -----------*/
+
+@media (max-width: 768px) {
+    .main__vista-principal--menu {
+        height: 500px;
+        width: 100%;
+    }
+    .section-entradas, .section-principal, .section-postres {
+        width: 100%;
+        margin-left: 0;
+    }
+    .section-entradas__titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 4rem;
+        width: 100%;
+    }
+    .section-entradas__parrafo {
+        text-align: center;
+        font-size: 1rem;
+        width: 100%;
+    }
+    .section-entradas__sub-parrafo {
+        font-size: 1rem;
+        margin-left: 150px;
+    }
+}
+
+/*----------- Página menú version mobile -----------*/
+
+@media (max-width: 425px) {
+    .main__vista-principal--menu {
+        height: 400px;
+        width: 100%;
+    }
+    .section-entradas, .section-principal, .section-postres {
+        width: 100%;
+        margin-left: 0;
+    }
+    .section-entradas__titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .section-entradas__parrafo {
+        text-align: center;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    .section-entradas__sub-parrafo {
+        font-size: 0.8rem;
+        margin-left: 20px;
+    }
+}
+
+/*----------- Página sobre nosotros version tablet -----------*/
+
+@media (max-width: 768px) {
+    .main__vista-principal-sobre-nosotros {
+        height: 500px;
+        width: 100%;
+    }
+    .main__vista-principal-sobre-sobre-nosotros--titulo {
+        font-size: 3rem;
+    }
+    .section__article--img-cheff {
+        width: 350px;
+        height: 450px;
+    }
+    .section__article--parrafo {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .section__article-fondo--conteiner-fondo {
+        height: 520px;
+    }.section__article-fondo--titulo {
+        width: 50%;
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+    .section__article-fondo--parrafo {
+        font-size: 0.8rem;
+        padding-top: 5px;
+    }
+    .section__article-fondo--menu {
+        padding: 1px;
+        border-radius: 5px; 
+        margin: 50px;
+        padding: 2px;
+        font-size: 0.8rem;
+    }
+    .section__article--img-cocinas {
+        width: 450px;
+        height: 350px;
+        padding: 25px;
+    }
+    .section__article--parrafo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 1rem;
+        padding: 20px 25px 0 0;
+    }
+    .section__article--reserva-mesa {
+        margin-bottom: 20px;
+    }
+}
+
+/*----------- Página sobre nosotros version mobile -----------*/
+
+@media (max-width: 425px) {
+    .main__vista-principal-sobre-nosotros {
+        height: 400px;
+        width: 100%;
+    }
+    .main__vista-principal-sobre-sobre-nosotros--titulo {
+        font-size: 2rem;
+    }
+    .main__vista-principal-sobre-sobre-nosotros--titulo-span {
+        font-size: 5rem;
+    }
+    .section__article--conteiner-cheff {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .section__article--conteiner-cheff {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section__article--img-cheff {
+        width: 80%;
+        padding-left: 0;
+        padding: 0;
+    }
+    .section__article--parrafo {
+        width: 100%;
+        padding: 15px;
+        font-size: 1.3rem;
+    }
+    .section__article-fondo--conteiner-fondo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 430px;
+        width: 100%;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    .section__article-fondo--titulo {
+        width: 100%;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        padding: 0;
+    }
+    .section__article-fondo--parrafo {
+        width: 90%;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 0.8rem;
+    }
+    .section__article-fondo--menu {
+        padding: 5px;
+        border-radius: 5px; 
+        margin: 10px; 
+    }
+    .section__article--conteiner-cocinas {
+        display: flex;
+        flex-direction: column;
+    }
+    .section__article--img-cocinas {
+        width: 100%;
+        padding: 0;
+    }
+    .section__article--reserva-mesa {
+        margin-bottom: 20px;
+    }
+}
+
+/*----------- Página reserva version mobile -----------*/
+
+@media (max-width: 425px) {
+    .section-reserva {
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-reserva__texto {
+        width: 100%;
+    }
+    .section-reserva__texto--titulo {
+        font-size: 2rem;
+        text-align: center;
+        margin-left: 0;
+    }
+    .section-reserva__texto--span {
+        font-size: 4rem;
+    }
+    .section-reserva__texto--parrafo{
+        font-size: 1rem;
+        text-align: center;
+        margin-left: 0;
+    }
+    .section-reserva__formulario {
+        width: 80%;
+        height: 550px;
+    }
+}
+
+/*----------- Página reserva version tablet -----------*/
+
+@media (max-width: 768px) {
+    .section-reserva {
+        justify-content: space-around;
+        padding-bottom: 20px;
+    }
+    .section-reserva__texto--titulo {
+        font-size: 2.5rem;
+        text-align: left;
+        margin-left: 30px;
+    }
+    .section-reserva__texto--span {
+        font-size: 5rem;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    .section-reserva__texto--parrafo{
+        font-size: 1.2rem;
+        text-align: left;
+        margin-left: 30px;
+    }
 }
