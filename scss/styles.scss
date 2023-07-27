@@ -1,0 +1,9 @@
+@import "reset";
+// import de varibles
+@import "./abstracts/display";
+@import "./abstracts/fuentes";
+@import "./abstracts/colores";
+// estructura general
+@import "estructura";
+// import de media queries
+@import "media-queries";
